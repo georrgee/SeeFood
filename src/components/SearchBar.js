@@ -14,7 +14,7 @@ const SearchBar = ({term, onTermChange, onTermSubmit}) => {
         value= {term}
         onChangeText= {onTermChange} // anytime that user changes text, onTermChange is called
         onEndEditing= {onTermSubmit} // hey call this function (cleaner way)
-        />
+        /> 
     </View>
     );
 };
